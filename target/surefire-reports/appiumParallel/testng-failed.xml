@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [appiumParallel]">
+  <test thread-count="5" verbose="0" name="calculatorTest(failed)">
+    <classes>
+      <class name="learnGridAppium.TestCase2">
+        <methods>
+          <include name="device2Execution"/>
+        </methods>
+      </class> <!-- learnGridAppium.TestCase2 -->
+      <class name="learnGridAppium.TestCase1">
+        <methods>
+          <include name="device1Execution"/>
+        </methods>
+      </class> <!-- learnGridAppium.TestCase1 -->
+    </classes>
+  </test> <!-- calculatorTest(failed) -->
+</suite> <!-- Failed suite [appiumParallel] -->

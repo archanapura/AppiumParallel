@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.546" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\archa\Documents\AppiumRunParallelFW\learnGridAppium"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\archa\Documents\AppiumRunParallelFW\learnGridAppium"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\archa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\archa\Downloads\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\archa\AppData\Local\Android\Sdk\tools;C:\Users\archa\AppData\Local\Android\Sdk\tools\bin;C:\Users\archa\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\WINDOWS.X64_193000_db_home\bin;C:\Users\archa\Downloads\WINDOWS.X64_193000_db_home\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\archa\Downloads\geckodriver-v0.28.0-win32;C:\Users\archa\Downloads\apache-maven-3.6.3\bin;C:\Users\archa\AppData\Local\Programs\Python\Python39\DLLs;C:\Users\archa\AppData\Local\Programs\Python\Python39\Lib;C:\Users\archa\AppData\Local\Programs\Python\Python39\libs;C:\Users\archa\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\archa\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;;C:\Users\archa\Downloads\geckodriver-v0.28.0-win32;C:\Users\archa\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\archa\AppData\Local\Programs\Python\Python39\DLLs;C:\Users\archa\AppData\Local\Programs\Python\Python39\Lib;C:\Users\archa\AppData\Local\Programs\Python\Python39\libs;C:\Users\archa\AppData\Local\Programs\Python\Python39;C:\Users\archa\Documents\allure-commandline-2.13.8\allure-2.13.8\bin;C:\Users\archa\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\archa\Downloads\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\archa\Downloads\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\archa"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="archa"/>
+    <property name="java.class.path" value="C:\Users\archa\Downloads\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\archa\Downloads\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="device2Execution" classname="learnGridAppium.TestCase2" time="12.793">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: &lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;/&gt;&#10;&lt;title&gt;Error 500 Server Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&lt;h2&gt;HTTP ERROR 500&lt;/h2&gt;&#10;&lt;p&gt;Problem accessing /wd/hub/session. Reason:&#10;&lt;pre&gt;    Server Error&lt;/pre&gt;&lt;/p&gt;&lt;h3&gt;Caused by:&lt;/h3&gt;&lt;pre&gt;java.io.IOException: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {&#10;  &amp;quot;desiredCapabilities&amp;quot;: {&#10;    &amp;quot;appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;    &amp;quot;appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;    &amp;quot;automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;    &amp;quot;suppressKillServer&amp;quot;: true,&#10;    &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;&#10;  },&#10;  &amp;quot;capabilities&amp;quot;: {&#10;    &amp;quot;firstMatch&amp;quot;: [&#10;      {&#10;        &amp;quot;appium:appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;        &amp;quot;appium:appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;        &amp;quot;appium:automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;        &amp;quot;platformName&amp;quot;: &amp;quot;android&amp;quot;,&#10;        &amp;quot;suppressKillServer&amp;quot;: true&#10;      }&#10;    ]&#10;  }&#10;}&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:138)&#10;	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)&#10;	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)&#10;	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)&#10;	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)&#10;	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)&#10;	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)&#10;	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)&#10;	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)&#10;	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)&#10;	at java.lang.Thread.run(Thread.java:748)&#10;Caused by: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {&#10;  &amp;quot;desiredCapabilities&amp;quot;: {&#10;    &amp;quot;appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;    &amp;quot;appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;    &amp;quot;automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;    &amp;quot;suppressKillServer&amp;quot;: true,&#10;    &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;&#10;  },&#10;  &amp;quot;capabilities&amp;quot;: {&#10;    &amp;quot;firstMatch&amp;quot;: [&#10;      {&#10;        &amp;quot;appium:appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;        &amp;quot;appium:appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;        &amp;quot;appium:automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;        &amp;quot;platformName&amp;quot;: &amp;quot;android&amp;quot;,&#10;        &amp;quot;suppressKillServer&amp;quot;: true&#10;      }&#10;    ]&#10;  }&#10;}&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&amp;lt;init&amp;gt;(SeleniumBasedRequest.java:102)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&amp;lt;init&amp;gt;(WebDriverRequest.java:36)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)&#10;	... 33 more&#10;Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]&#10;	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)&#10;	at org.openqa.selenium.remote.NewSessionPayload.&amp;lt;init&amp;gt;(NewSessionPayload.java:154)&#10;	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)&#10;	... 38 more&#10;&lt;/pre&gt;&#10;&lt;h3&gt;Caused by:&lt;/h3&gt;&lt;pre&gt;org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {&#10;  &amp;quot;desiredCapabilities&amp;quot;: {&#10;    &amp;quot;appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;    &amp;quot;appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;    &amp;quot;automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;    &amp;quot;suppressKillServer&amp;quot;: true,&#10;    &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;&#10;  },&#10;  &amp;quot;capabilities&amp;quot;: {&#10;    &amp;quot;firstMatch&amp;quot;: [&#10;      {&#10;        &amp;quot;appium:appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;        &amp;quot;appium:appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;        &amp;quot;appium:automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;        &amp;quot;platformName&amp;quot;: &amp;quot;android&amp;quot;,&#10;        &amp;quot;suppressKillServer&amp;quot;: true&#10;      }&#10;    ]&#10;  }&#10;}&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&amp;lt;init&amp;gt;(SeleniumBasedRequest.java:102)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&amp;lt;init&amp;gt;(WebDriverRequest.java:36)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)&#10;	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)&#10;	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)&#10;	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)&#10;	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)&#10;	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)&#10;	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)&#10;	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)&#10;	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)&#10;	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)&#10;	at java.lang.Thread.run(Thread.java:748)&#10;Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]&#10;	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)&#10;	at org.openqa.selenium.remote.NewSessionPayload.&amp;lt;init&amp;gt;(NewSessionPayload.java:154)&#10;	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)&#10;	... 38 more&#10;&lt;/pre&gt;&#10;&lt;h3&gt;Caused by:&lt;/h3&gt;&lt;pre&gt;java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]&#10;	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)&#10;	at org.openqa.selenium.remote.NewSessionPayload.&amp;lt;init&amp;gt;(NewSessionPayload.java:154)&#10;	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&amp;lt;init&amp;gt;(SeleniumBasedRequest.java:102)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&amp;lt;init&amp;gt;(WebDriverRequest.java:36)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)&#10;	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)&#10;	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)&#10;	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)&#10;	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)&#10;	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)&#10;	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)&#10;	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)&#10;	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)&#10;	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)&#10;	at java.lang.Thread.run(Thread.java:748)&#10;&lt;/pre&gt;&#10;&lt;hr&gt;&lt;a href=&quot;http://eclipse.org/jetty&quot;&gt;Powered by Jetty:// 9.4.z-SNAPSHOT&lt;/a&gt;&lt;hr/&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2BP4J25&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 500 Server Error</title>
+</head>
+<body><h2>HTTP ERROR 500</h2>
+<p>Problem accessing /wd/hub/session. Reason:
+<pre>    Server Error</pre></p><h3>Caused by:</h3><pre>java.io.IOException: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:138)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	... 33 more
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2BP4J25', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: AndroidDriver
+	at learnGridAppium.TestCase2.device2Execution(TestCase2.java:24)
+Caused by: java.lang.reflect.InvocationTargetException
+	at learnGridAppium.TestCase2.device2Execution(TestCase2.java:24)
+Caused by: org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 500 Server Error</title>
+</head>
+<body><h2>HTTP ERROR 500</h2>
+<p>Problem accessing /wd/hub/session. Reason:
+<pre>    Server Error</pre></p><h3>Caused by:</h3><pre>java.io.IOException: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:138)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	... 33 more
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+	at learnGridAppium.TestCase2.device2Execution(TestCase2.java:24)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2BP4J25', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: AndroidDriver
+	at learnGridAppium.TestCase2.device2Execution(TestCase2.java:24)
+]]></failure>
+  </testcase>
+  <testcase name="device1Execution" classname="learnGridAppium.TestCase1" time="0.095">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: &lt;html&gt;&#10;&lt;head&gt;&#10;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;/&gt;&#10;&lt;title&gt;Error 500 Server Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&lt;h2&gt;HTTP ERROR 500&lt;/h2&gt;&#10;&lt;p&gt;Problem accessing /wd/hub/session. Reason:&#10;&lt;pre&gt;    Server Error&lt;/pre&gt;&lt;/p&gt;&lt;h3&gt;Caused by:&lt;/h3&gt;&lt;pre&gt;java.io.IOException: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {&#10;  &amp;quot;desiredCapabilities&amp;quot;: {&#10;    &amp;quot;appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;    &amp;quot;appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;    &amp;quot;automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;    &amp;quot;suppressKillServer&amp;quot;: true,&#10;    &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;&#10;  },&#10;  &amp;quot;capabilities&amp;quot;: {&#10;    &amp;quot;firstMatch&amp;quot;: [&#10;      {&#10;        &amp;quot;appium:appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;        &amp;quot;appium:appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;        &amp;quot;appium:automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;        &amp;quot;platformName&amp;quot;: &amp;quot;android&amp;quot;,&#10;        &amp;quot;suppressKillServer&amp;quot;: true&#10;      }&#10;    ]&#10;  }&#10;}&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:138)&#10;	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)&#10;	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)&#10;	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)&#10;	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)&#10;	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)&#10;	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)&#10;	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)&#10;	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)&#10;	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)&#10;	at java.lang.Thread.run(Thread.java:748)&#10;Caused by: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {&#10;  &amp;quot;desiredCapabilities&amp;quot;: {&#10;    &amp;quot;appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;    &amp;quot;appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;    &amp;quot;automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;    &amp;quot;suppressKillServer&amp;quot;: true,&#10;    &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;&#10;  },&#10;  &amp;quot;capabilities&amp;quot;: {&#10;    &amp;quot;firstMatch&amp;quot;: [&#10;      {&#10;        &amp;quot;appium:appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;        &amp;quot;appium:appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;        &amp;quot;appium:automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;        &amp;quot;platformName&amp;quot;: &amp;quot;android&amp;quot;,&#10;        &amp;quot;suppressKillServer&amp;quot;: true&#10;      }&#10;    ]&#10;  }&#10;}&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&amp;lt;init&amp;gt;(SeleniumBasedRequest.java:102)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&amp;lt;init&amp;gt;(WebDriverRequest.java:36)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)&#10;	... 33 more&#10;Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]&#10;	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)&#10;	at org.openqa.selenium.remote.NewSessionPayload.&amp;lt;init&amp;gt;(NewSessionPayload.java:154)&#10;	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)&#10;	... 38 more&#10;&lt;/pre&gt;&#10;&lt;h3&gt;Caused by:&lt;/h3&gt;&lt;pre&gt;org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {&#10;  &amp;quot;desiredCapabilities&amp;quot;: {&#10;    &amp;quot;appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;    &amp;quot;appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;    &amp;quot;automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;    &amp;quot;suppressKillServer&amp;quot;: true,&#10;    &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;&#10;  },&#10;  &amp;quot;capabilities&amp;quot;: {&#10;    &amp;quot;firstMatch&amp;quot;: [&#10;      {&#10;        &amp;quot;appium:appActivity&amp;quot;: &amp;quot;com.android.calculator2.Calculator&amp;quot;,&#10;        &amp;quot;appium:appPackage&amp;quot;: &amp;quot;com.android.calculator2&amp;quot;,&#10;        &amp;quot;appium:automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;,&#10;        &amp;quot;platformName&amp;quot;: &amp;quot;android&amp;quot;,&#10;        &amp;quot;suppressKillServer&amp;quot;: true&#10;      }&#10;    ]&#10;  }&#10;}&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&amp;lt;init&amp;gt;(SeleniumBasedRequest.java:102)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&amp;lt;init&amp;gt;(WebDriverRequest.java:36)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)&#10;	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)&#10;	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)&#10;	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)&#10;	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)&#10;	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)&#10;	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)&#10;	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)&#10;	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)&#10;	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)&#10;	at java.lang.Thread.run(Thread.java:748)&#10;Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]&#10;	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)&#10;	at org.openqa.selenium.remote.NewSessionPayload.&amp;lt;init&amp;gt;(NewSessionPayload.java:154)&#10;	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)&#10;	... 38 more&#10;&lt;/pre&gt;&#10;&lt;h3&gt;Caused by:&lt;/h3&gt;&lt;pre&gt;java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]&#10;	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)&#10;	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)&#10;	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)&#10;	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#10;	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#10;	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#10;	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)&#10;	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)&#10;	at org.openqa.selenium.remote.NewSessionPayload.&amp;lt;init&amp;gt;(NewSessionPayload.java:154)&#10;	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&amp;lt;init&amp;gt;(SeleniumBasedRequest.java:102)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&amp;lt;init&amp;gt;(WebDriverRequest.java:36)&#10;	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)&#10;	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)&#10;	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)&#10;	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)&#10;	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)&#10;	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)&#10;	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)&#10;	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)&#10;	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)&#10;	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)&#10;	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)&#10;	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)&#10;	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)&#10;	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)&#10;	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)&#10;	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)&#10;	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)&#10;	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)&#10;	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)&#10;	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)&#10;	at java.lang.Thread.run(Thread.java:748)&#10;&lt;/pre&gt;&#10;&lt;hr&gt;&lt;a href=&quot;http://eclipse.org/jetty&quot;&gt;Powered by Jetty:// 9.4.z-SNAPSHOT&lt;/a&gt;&lt;hr/&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2BP4J25&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: Unable to parse remote response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 500 Server Error</title>
+</head>
+<body><h2>HTTP ERROR 500</h2>
+<p>Problem accessing /wd/hub/session. Reason:
+<pre>    Server Error</pre></p><h3>Caused by:</h3><pre>java.io.IOException: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:138)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	... 33 more
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2BP4J25', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: AndroidDriver
+	at learnGridAppium.TestCase1.device1Execution(TestCase1.java:24)
+Caused by: java.lang.reflect.InvocationTargetException
+	at learnGridAppium.TestCase1.device1Execution(TestCase1.java:24)
+Caused by: org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 500 Server Error</title>
+</head>
+<body><h2>HTTP ERROR 500</h2>
+<p>Problem accessing /wd/hub/session. Reason:
+<pre>    Server Error</pre></p><h3>Caused by:</h3><pre>java.io.IOException: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:138)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	... 33 more
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>org.openqa.grid.common.exception.GridException: Cannot extract a capabilities from the request: {
+  &quot;desiredCapabilities&quot;: {
+    &quot;appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+    &quot;appPackage&quot;: &quot;com.android.calculator2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;platformName&quot;: &quot;Android&quot;
+  },
+  &quot;capabilities&quot;: {
+    &quot;firstMatch&quot;: [
+      {
+        &quot;appium:appActivity&quot;: &quot;com.android.calculator2.Calculator&quot;,
+        &quot;appium:appPackage&quot;: &quot;com.android.calculator2&quot;,
+        &quot;appium:automationName&quot;: &quot;UiAutomator2&quot;,
+        &quot;platformName&quot;: &quot;android&quot;,
+        &quot;suppressKillServer&quot;: true
+      }
+    ]
+  }
+}
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:74)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	... 38 more
+</pre>
+<h3>Caused by:</h3><pre>java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [suppressKillServer]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:205)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:372)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:209)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:154)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.extractDesiredCapability(WebDriverRequest.java:66)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.&lt;init&gt;(SeleniumBasedRequest.java:102)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequest.&lt;init&gt;(WebDriverRequest.java:36)
+	at org.openqa.grid.web.servlet.handler.WebDriverRequestFactory.createFromRequest(WebDriverRequestFactory.java:30)
+	at org.openqa.grid.web.servlet.handler.SeleniumBasedRequest.createFromRequest(SeleniumBasedRequest.java:73)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+	at learnGridAppium.TestCase1.device1Execution(TestCase1.java:24)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2BP4J25', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: AndroidDriver
+	at learnGridAppium.TestCase1.device1Execution(TestCase1.java:24)
+]]></failure>
+  </testcase>
+</testsuite>
